@@ -25,14 +25,33 @@ form {
 }
 
 img { 
-    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 2px solid black;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
 }
 
 /* CLASSES */ 
 
+p.first::first-letter {
+    font-size: 150%;
+    font-weight: bold;
+    color: blueviolet;
+  }
 
-
+.high {
+    image-rendering: high-quality;
+  }
 
 /* ID */ 
 
+#love {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
